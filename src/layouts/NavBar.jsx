@@ -1,0 +1,27 @@
+import React from "react";
+import logo from "../assets/images/hero.jpg";
+import { Link, useNavigate } from "react-router-dom";
+
+const NavBar = () => {
+
+  return (
+    //#00897B
+    <nav className="w-full bg-[#3C18BE] h-16 flex items-center justify-between px-4">
+      <Link to={"/"}>
+        <div className="flex items-center gap-10">
+          <img src={logo} width={48} alt="Logo" />
+          <div className="flex flex-col text-white">
+            <h1 className="text-secondary text-2xl font-semibold">
+              SAFETY SECURITY,INC.
+            </h1>
+            <p className="text-secondary text-sm font-normal">
+              ....protecting your businesses and properties
+            </p>
+          </div>
+        </div>
+      </Link>
+    </nav>
+  );
+};
+
+export default NavBar;
