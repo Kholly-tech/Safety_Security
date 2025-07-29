@@ -15,9 +15,9 @@ const NavBar = () => {
           <div className="justify-between flex w-full">
             <div className="flex flex-col text-white -ml-5 my-auto">
               <h1 className="text-secondary text-lg md:text-2xl font-semibold">
-                SAFETY SECURITY,INC.
+                SAFETY SECURITY, INC.
               </h1>
-              <p className="text-secondary text-xs md:text-sm font-normal">
+              <p className="text-secondary text-xs md:text-[17px] font-normal">
                 securing your businesses and properties
               </p>
             </div>
